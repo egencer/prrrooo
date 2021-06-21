@@ -17,8 +17,7 @@ jobs:
           # git clone git@github:$GITHUB_REPOSITORY
           # git checkout $GITHUB_SHA
       - name: Checkout
-        uses: actions/checkout@v1
-        print(Everything is ok)
+        uses: actions/checkout@v
       - name: List Files After Checkout
 
         run: |
